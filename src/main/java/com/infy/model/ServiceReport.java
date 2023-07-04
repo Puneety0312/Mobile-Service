@@ -8,6 +8,10 @@ public class ServiceReport {
 	private List<String> issues;
 	private float serviceFee;
 	
+	public ServiceReport() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public ServiceReport(int serviceId,String brand,List<String> issues,float serviceFee) {
 		// TODO Auto-generated constructor stub
 		this.brand=brand;
